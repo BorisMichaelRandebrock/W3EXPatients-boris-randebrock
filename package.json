@@ -1,0 +1,41 @@
+{
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^27.5.1"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "name": "ejercicio_3",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BorisMichaelRandebrock/W3EXPatients-boris-randebrock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BorisMichaelRandebrock/W3EXPatients-boris-randebrock/issues"
+  },
+  "homepage": "https://github.com/BorisMichaelRandebrock/W3EXPatients-boris-randebrock#readme",
+  "description": ""
+}
